@@ -1,0 +1,52 @@
+.clock {
+	width:280px;
+	margin:0 auto; 
+	padding:5px;
+	font-weight:bold;
+	color:#C12E2A; 
+}
+
+#Date { 
+	font-size:16px; 
+	text-align:center; 
+	
+}
+
+#dialog-clock ul { 
+	width:280px; 
+	margin:0 auto; 
+	padding:0px; 
+	list-style:none; 
+	text-align:center; 
+}
+
+#dialog-clock ul li { 
+	display:inline; 
+	font-size:24px; 
+	text-align:center; 
+}
+
+#point { 
+	position:relative; 
+	-moz-animation:mymove 1s ease infinite; 
+	-webkit-animation:mymove 1s ease infinite; 
+	padding-left:10px; 
+	padding-right:10px; 
+}
+
+/*
+@-webkit-keyframes mymove 
+{
+0% {opacity:1.0; text-shadow:0 0 0px #00c6ff;}
+50% {opacity:0; text-shadow:none; }
+100% {opacity:1.0; text-shadow:0 0 0px #00c6ff; }	
+}
+
+
+@-moz-keyframes mymove 
+{
+0% {opacity:1.0; text-shadow:0 0 0px #00c6ff;}
+50% {opacity:0; text-shadow:none; }
+100% {opacity:1.0; text-shadow:0 0 0px #00c6ff; }	
+}
+*/

@@ -1,32 +1,14 @@
 # Atom Desktop 1.0
 
-edit
+A desktop enviroment to use on your CMS or website.
 
-## Info
+### Info
 
-edit
-
-## How to use this plugin
-
-### Getting Started
-
-edit		
+In development.
 
 
-### Initialization
 
-edit
-
-### The HTML
-
-edit
-
-### Options
-
-edit
-
-
-## Contact & Info
+### Contact & Info
 
 Atom Desktop and the Atom CMS are developed by [Alan Quandt] (alanquandt.com) at [The Digital Craft] (thedigitalcraft.com).  Alan produces free video tutorials on web development, design, and other stuff. The Digital Craft relies on donations and proceeds from private online training sessions.  
 

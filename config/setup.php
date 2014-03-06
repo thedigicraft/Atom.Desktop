@@ -16,6 +16,7 @@ $page['title'] = 'Home'; // Page Title
 if (!$_GET['page']) { $_GET['page'] = 'board'; } // Default Page
 
 $user = data_user($dbc, 2); // Logged in User.
+
 if($_GET['page'] == 'board') {
 	
 	if(isset($_GET['workspace'])){
@@ -28,7 +29,6 @@ if($_GET['page'] == 'board') {
 
 		$workspace = 1;
 	}	
-	
 	
 }
 

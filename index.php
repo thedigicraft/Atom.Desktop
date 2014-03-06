@@ -17,6 +17,7 @@ include('widgets/update.php');
 include('widgets/user.php');
 include('widgets/console.php');
 
+
 ## Footer:
 include('template/footer.php');
 

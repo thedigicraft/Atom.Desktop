@@ -8,8 +8,9 @@
     <div class="pull-right">
 
         <a id="btn-user" class="btn btn-taskbar" href="#"><i class="fa fa-user"></i></a>
+		<a id="btn-rss" class="btn btn-taskbar" href="#"><i class="fa fa-rss"></i></a>		
+		<a id="btn-update" class="btn btn-taskbar" href="#"><i class="fa fa-columns"></i></a>
 				
-		<a id="btn-update" class="btn btn-taskbar" href="#"><i class="fa fa-columns"></i></a>		
 		<a id="btn-console" class="btn btn-taskbar" href="#"><i class="fa fa-terminal"></i></a>
 
 		<div class="btn-group dropup">

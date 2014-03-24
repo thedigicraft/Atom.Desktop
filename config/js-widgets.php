@@ -10,8 +10,8 @@
 		$( ".icon" ).draggable({ 
 			containment: "#wrap",
 			snap: ".icon", 
-			snapMode: "outer",
-			grid: [ 10, 10 ]
+			snapMode: "outer"
+			//grid: [ 10, 10 ]
 		});
 	});
   

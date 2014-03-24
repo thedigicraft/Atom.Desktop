@@ -15,6 +15,7 @@ include('template/header.php');
 include('widgets/clock.php');
 include('widgets/update.php');
 include('widgets/user.php');
+include('widgets/users.php');
 include('widgets/console.php');
 
 

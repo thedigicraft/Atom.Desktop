@@ -5,7 +5,7 @@
 
 ## Site Info:
 DEFINE('SITE_TITLE', 'Atom Desktop'); // Site Title
-DEFINE('SITE_VERSION', '1.0.0'); // Site Version
+DEFINE('SITE_VERSION', '1.0.1'); // Site Version
 
     // Folders
 	DEFINE('H', 'http://'.$_SERVER['HTTP_HOST'].'/'); // Host

@@ -187,6 +187,37 @@ div.icon span {
 
 }
 
+#taskbar-user {
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	
+	border:1px solid rgba(100,100,100,.8);
+	
+	border-radius:0px 5px 0px 0px;
+	background-color: rgba(93,96,103,.2);
+	/*background:#888A8D;*/
+}
+
+#taskbar-user .btn {
+	padding:0px 0px 0px 0px;
+	margin:2px 2px 2px 2px;
+}
+
+#taskbar-user .img-thumbnail {
+	/*background:rgba(150,150,150,.7);*/
+	border-radius:0px 5px 0px 0px;
+	padding:0px 0px 0px 0px;
+	border:1px solid rgba(100,100,100,.8);
+	
+}
+
+#taskbar #taskbar-tasks {
+	position:absolute;
+	bottom:1px;
+	left:76px;
+
+}
 
 #icon-user {
 	top: 0px;

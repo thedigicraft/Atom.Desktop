@@ -1,9 +1,15 @@
 <!-- Taskbar -->
-<footer id="footer">
+<footer id="taskbar">
 
-    <a id="btn-clock" class="btn btn-taskbar" href="#">
-         <i class="fa fa-spinner"></i> Clock
-    </a>    
+	<div id="taskbar-tasks">
+		
+	    <a id="btn-clock" class="btn btn-taskbar" href="#">
+	         <i class="fa fa-clock-o"></i> Clock
+	    </a>	
+		
+	</div>
+
+    
 
     <div class="pull-right">
 
@@ -14,20 +20,28 @@
 				
 		<a id="btn-console" class="btn btn-taskbar" href="#"><i class="fa fa-terminal"></i></a>
 
-		<div class="btn-group dropup">
-			
-			<a class="btn btn-taskbar dropdown-toggle" data-toggle="dropdown"><i class="fa fa-desktop"></i></a>
 
-			<ul class="dropdown-menu pull-right">
-				<li><a href="#"><i class="fa fa-desktop"></i> <strong>Workspaces</strong></a></li>
-				<li class="divider"></li>
-				<?php load_workspaces($dbc, $user['id']); ?>
-				<li class="divider"></li>
-				<li><a href="?workspace=1">Global Default</a></li>
-			</ul>
-		       
-         </div>
      
     </div>
 
 </footer><!-- END taskbar -->
+
+<div id="taskbar-user">
+	
+	<div class="btn-group dropup">
+		
+		<a class="btn btn-taskbar dropdown-toggle" data-toggle="dropdown">
+			<img class="img-thumbnail" src="uploads/avatars/<?php echo $user['avatar']; ?>">
+		</a>
+	
+		<ul class="dropdown-menu dropdown-menu-left">
+			<li><a href="#"><i class="fa fa-desktop"></i> <strong>Workspaces</strong></a></li>
+			<li class="divider"></li>
+			<?php load_workspaces($dbc, $user['id']); ?>
+			<li class="divider"></li>
+			<li><a href="?workspace=1">Global Default</a></li>
+		</ul>
+	       
+	 </div>	
+	
+</div>

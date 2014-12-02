@@ -54,7 +54,7 @@ Atom Desktop and the Atom CMS are developed by [Alan Quandt] (alanquandt.com) at
 
 [Donate Here](http://thedigitalcraft.com/) or learn more about Alan's [Private Sessions] (http://thedigitalcraft.com/private-training)
 
-> - Documentation: http://atomgallery.alanquandt.com/
+> - Demo: http://atomdesktop.alanquandt.com/
 > - Official Website: http://thedigitalcraft.com
 > - Facebook: http://facebook.com/thedigicraft
 > - YouTube Videos: http://youtube.com/thedigicraft
